@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru ji Astro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            background-color: hsl(0, 0%, 100%);
+        }
+.rating{
+    display: flex;
+   padding: 5rem;
+}
+.rat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rat h1{
+    font-size: 7.8rem;
+}
+.rat div {
+    font-size: 1.5rem;
+    color: gray;
+}
+.pro ul li{
+  list-style: none; 
+  padding: 4px;  
+}
+.pro ul li progress{
+    width: 42vw;
+    border-bottom-left-radius: 50%;
+}
+.coment{
+    display: flex;
+    padding: 2rem;
+    border-top:0.4px solid gray;
+    align-items: center;
+    
+}
+.comments{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.comments div img{
+   height: 8vh;
+   width: 4vw;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.comments div div{
+ margin: 8px;
+ color: gray;
+    padding: -2rem;
+}
+.comments div div h6{
+ font-size: 1.5rem;
+ color: black;
+}
+.comments div i{
+    color: blue;
+    font-size: 1.5rem;
+}
+.comments div i:nth-child(4){
+    color:gray;
+    font-size: 1.5rem;
+}
+.comments div i:nth-child(5){
+    color:gray;
+    font-size: 1.5rem;
+}
+.box{
+    background: rgb(206, 202, 202);
+}
+.box h6{
+    background-color: rgb(206, 202, 202);
+ font-size: 1.4rem;
+
+}
+.box p{
+    background-color: rgb(206, 202, 202);
+ font-size: 1.2rem;
+
+}
+.allcom{
+    margin-left: 2rem;
+    margin-right: 26rem;
+    border-bottom: 0.4px solid gainsboro;
+}
+.allcom p{
+ font-size: 1.5rem;
+}
+.allcom a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    height: 6vh;
+    width: 16vw;
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    
+    margin-left: 36rem;
+    
+}
+header{
+    border: 1px solid rgb(230, 215, 215);
+    position: relative;
+    display: flex;
+    padding: 2px;
+}
+@media(max-width:820px){
+            
+            header .right h4{
+    display: none;
+}
+  
+            .humburger{
+            display: block;
+           
+        }
+        .menu {
+            display: none;
+            
+        }
+        .fol audio {
+    width: 23vh;
+    padding: 1rem;
+}
+
+        .section1{
+        flex-direction: column;
+        }
+        .pic{
+            position: relative;
+            left: 25%;
+            padding: 5rem;
+        }
+        .pic img {
+    height: 25vh;
+    width: 49vw;
+    left: -5rem;
+    position: relative;
+}
+        .tik{
+           flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+       .like ul{
+           flex-direction: column-reverse;
+           font-size: 1rem;
+       }
+       .like ul li{
+       padding: 1px;
+       }
+       .humburger{
+           font-size: 2.5rem;
+            padding: 0px;
+            position: relative;
+            right: -4px;
+            top: 8px;
+        }
+        .sec .p p{
+            font-size: 1rem;
+                }
+                .sec {
+    padding: -3rem;
+
+    margin-left: -5rem;
+}
+footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.art h2 {
+    font-size: 1rem;
+}
+.sec .art p {
+    font-size: 16px;
+    color: rgb(15, 14, 14);
+}
+.fol h5 {
+   
+    font-size: 1rem;
+}
+.cont{
+    width: 100%;
+   
+    bottom: 25rem;
+    margin-top: -683px;
+    padding: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.cal {
+    padding: 1rem;
+    
+    margin-left: 2rem;
+    width: 13vw;
+    height: 2vh;
+    
+}
+.co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: row;
+}
+.cont .tag {
+   
+    position: relative;
+    top: -100px;
+}
+.cal a {
+    
+    font-size: 12px;
+
+}
+main {
+    width: 100%;
+    margin: -57px;
+    overflow: hidden;
+    margin-left: 10px;
+    position: relative;
+}
+.slide img {
+    height: 17vh;
+    width: 23vw;
+   
+    padding: 2px;
+}
+main span {
+   
+    left: -1.5%;
+   
+}
+.pro ul li progress {
+    width: 41vw;
+    border-bottom-left-radius: 50%;
+}
+.coment {
+    display: flex;
+    padding: 3rem;
+    border-top: 0.4px solid gray;
+    align-items: center;
+    /* margin-right: -151rem; */
+    margin-left: -7rem;
+}
+.rat h1 {
+    font-size: 4.8rem;
+}
+.rat div {
+    font-size: 1rem;
+    color: gray;
+}
+.pro ul li {
+    margin: -17px;
+}
+.allcom {
+    margin-left: 0rem;
+     margin-right: 0rem;
+    border-bottom: 0.4px solid gainsboro;
+}
+.allcom p {
+    font-size: 1rem;
+}
+.comments div img {
+   
+    width: 14vw;
+   
+}
+.comments div div {
+    margin: 5px;
+    color: gray;
+    padding: -2rem;
+}
+
+.con h6 {
+    font-size: 1rem;
+}
+.box h6 {
+    background-color: rgb(206, 202, 202);
+    font-size: 1rem;
+}
+.allcom a {
+    
+    width: 71vw;
+    
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+}
+    </style>
+</head>
+<body>
+    <header>
+      <a href="index.html"><Span>&#139</Span></a>  <h2>Back to your Page</h2>
+    </header>
+    <div class="coment">
+        <div class="rating">
+            <div class="rat">
+                <h1>4.3</h1>
+                <div><i class="fa fa-user"></i> 84,5555</div>
+            </div>
+        </div>
+            <div class="pro">
+                <ul>
+                    <li><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <progress value="96" max="100"></progress> </li>
+                    <li><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <progress value="70" max="100"></progress> </li>
+                    <li><i class="fa fa-star"></i> <i class="fa fa-star"></i> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <progress value="10" max="100"></progress> </li>
+                    <li><i class="fa fa-star"></i> <i class="fa fa-star"></i>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <progress value="10" max="100"></progress> </li>
+                    <li><i class="fa fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <progress value="3" max="100"></progress> </li>
+                </ul>
+            </div>
+            
+    </div>
+  <div class="allcom">
+    <div class="comments">
+        <div><img src="ak3.jpg" alt=""> </div>
+        <div>
+            <div> <h6>Ankit</h6></div>
+            <div>today</div>
+        </div>
+        <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>
+    Might as well get right to it,then.at the risk of sounding like a contraian,I did not love this film.Do I love elements of this? Yes.did not love this fi did not love this fi did not love this fi did not love this fi did not love this fi did not love this .</p>
+<div class="con">
+    <h6>Add new review</h6>
+    <p>The last time i feel like its a cinema last night i am wacthing satr war nd i find Guruji is the best app</p>
+</div>
+<div class="box">
+    <h6>astrology feedback</h6>
+<p>i did not like film but last night i was relly enjoing evry thing.</p>
+</div>
+<div class="comments">
+    <div><img src="ak3.jpg" alt=""> </div>
+    <div>
+        <div> <h6>Ankit</h6></div>
+        <div>3 days ago</div>
+    </div>
+    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>
+The last time,I felt like this,in a cinema,I was six years old and I was watching star wars.I never imagined,I would ever find that feeling again in a cinema.that sense of being transported to another world.</p>
+<div class="comments">
+<div><img src="ak3.jpg" alt=""> </div>
+<div>
+    <div> <h6>Ankit</h6></div>
+    <div>yesterday</div>
+</div>
+<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p></p>
+<div class="comments">
+<div><img src="ak3.jpg" alt=""> </div>
+<div>
+    <div> <h6>Ankit</h6></div>
+    <div>3 days ago</div>
+</div>
+<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>The last time,I felt like this,in a cinema,I was six years old and I was watching star wars.I never imagined,I would ever find that feeling again in a cinema.that sense of being transported to another world.</p>
+<div class="comments">
+<div><img src="ak3.jpg" alt=""> </div>
+<div>
+    <div> <h6>Ankit</h6></div>
+    <div>today</div>
+</div>
+<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>
+Might as well get right to it,then.at the risk of sounding like a contraian,I did not love this film.Do I love elements of this? Yes.did not love this fi did not love this fi did not love this fi did not love this fi did not love this fi did not love this .</p>
+<div class="comments">
+<div><img src="ak3.jpg" alt=""> </div>
+<div>
+    <div> <h6>Ankit</h6></div>
+    <div>today</div>
+</div>
+<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>
+Might as well get right to it,then.at the risk of sounding like a contraian,I did not love this film.Do I love elements of this? Yes.did not love this fi did not love this fi did not love this fi did not love this fi did not love this fi did not love this .</p>
+<div class="comments">
+<div><img src="ak3.jpg" alt=""> </div>
+<div>
+    <div> <h6>Ankit</h6></div>
+    <div>today</div>
+</div>
+<div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>    
+</div>
+<p>
+Might as well get right to it,then.at the risk of sounding like a contraian,I did not love this film.Do I love elements of this? Yes.did not love this fi did not love this fi did not love this fi did not love this fi did not love this fi did not love this .</p>
+<a href="#">Click more</a>
+  </div>
+</body>
+</html>
